@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PVS</title>
+    <link rel="icon" href="Images/Logo/M-LOGO-BLACK.svg" />
+    <link
+      rel="icon"
+      href="Images/Logo/M-LOGO-WHITE.svg"
+      media="(prefers-color-scheme: dark)"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="animateOnScroll.js" defer></script>
+    <script src="script.js" defer></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    
+
+  </head>
+  <body>
+    <!--Header of the portfolio-->
+    <header id="header" class="hidden">
+      <nav>
+        <div class="container">
+          <div class="menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <a href="#" class="logo"
+            ><img src="Images/Logo/M-LOGO-WHITE.svg" alt="Logo"
+          /></a>
+        </div>
+        <ul class="navLinks">
+          <li><i class="bx bx-chevron-left"></i><span>Close Menu</span></li>
+          <li>
+            <a href="#contact" class="navLink"
+              ><i class="fa-solid fa-comments"></i><span>Lets Talk!</span></a
+            >
+          </li>
+          <li><a href="#about" class="navLink">About</a></li>
+          <li><a href="#projects" class="navLink">Projects</a></li>
+          <li><a href="#education" class="navLink">Education</a></li>
+          <li><a href="#experience" class="navLink">Experience</a></li>
+        </ul>
+        <div class="contact-header">
+          <a href="https://github.com/Venksaiabhishek" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/abhishek-p-v-s-571015275/"
+            target="_blank"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+          
+        </div>
+      </nav>
+    </header>
+    <!--Main Section-->
+    <main id="main" style="background-color:rgb(228, 228, 226);
+  color: #000;;">
+      <!--Hero Section-->
+      <section id="hero">
+        <!--Glowing effect for decoration-->
+        <div class="status hidden"style="color: white; margin-bottom: 10px;">
+            <span class="statusColor">●</span>Available For Work
+          </div>
+          <!-- Flex container to align text and image -->
+          <div class="hero-container">
+     <!-- Left Text Content -->
+     <div class="hero-content">
+            <div class="texts">
+              <span class="name"style="font-size: 32px; font-weight: bold;">P.V.S ABHISHEK</span>
+                <h1>
+                  <span class="keyword">System</span>
+                  <span class="dot">.</span>
+                  <span class="keyword">out</span>
+                  <span class="dot">.</span>
+                  <span class="function">println</span>(
+                  <span class="dynamic-text">"Web Developer"</span>);
+                </h1>
+             
+              
+              <span class="intro">
+                Developer specializing in creating scalable, user-friendly,and innovative <br>digital solutions.I also Transform Data into Strategic Decisions 
+              </span>
+            </div>
+            <script src="script.js"></script>
+            <div class="buttons hidden">
+              <a href="assets/jagruthiresume.pdf" class="notAvailable"
+                ><i class="bx bxs-cloud-download"></i>Resume</a
+              >
+              <a href="#contact"
+                ><i class="bx bxs-user-detail"></i>Contact Me</a
+              >
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="Images/Profile/bit_abhishek.mp4" alt="New Character">
+          </div>
+        </div>
+        <!--Scroll Sign helping them know there is more below-->
+        <a class="scroll-up-arrow" href="#about">
+          <span class="arrow">›</span>
+          <span class="arrow">›</span>
+        </a>
+      </section>
+      <!--About Section containing about, contact info and technologies-->
+       <section id="about">
+        <!--header for the components-->
+        <div class="sectionTitle hidden">
+          <span class="mainTitle">About Me</span>
+          <span class="backTitle">About Me</span>
+        </div>
+        <!--container for about, contact and techs-->
+        <div class="container" class="contact hidden">
+          <div class="aboutAndContact">
+            <div class="about hidden">
+              <!--My profile Picture-->
+              <div class="profilePicture">
+                <img src="Images/Profile/abhishekpicture.webp" alt="Profile Picture" />
+              </div>
+              <!--Personal Info-->
+              <div class="information">
+                <p class="fullName">PVS ABHISHEK</p>
+                <p class="address">
+                  <i class="bx bxs-map"></i>Andhra Pradesh,India
+                </p>
+             
+              </div>
+            </div>
+            <!--Contact Info-->
+            <div id="contact" class="contact hidden">
+              <div class="heading">
+                <i class="fa-solid fa-link"></i
+                ><span>Feel free to reach out!</span>
+              </div>
+              <a
+                href="https://github.com/Venksaiabhishek"
+                class="link"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i> GitHub
+                <i class="bx bx-right-arrow-alt slide"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/abhishek-p-v-s-571015275/"
+                target="_blank"
+                class="link"
+              >
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
+                <i class="bx bx-right-arrow-alt slide"></i>
+              </a>
+              <a
+                href="mailto:vsabhishek173@gmail.com"
+                class="link"
+                target="_blank"
+              >
+                <i class="bx bx-envelope"></i> Email
+                <i class="bx bx-right-arrow-alt slide"></i>
+              </a>
+              <a href="tel:+919701100472" class="link">
+                <i class="fa-solid fa-phone"></i> Contact me 
+                <i class="bx bx-right-arrow-alt slide"></i>
+            </a>
+              
+            </div>
+
+            <!--here-->
+          </div>
+          <!--Technologies I use-->
+          <div class="wrapper">
+            <h2>Technologies I Have worked With</h2>
+            <div class="techSkills">
+              <div class="tech css hidden">
+                <div class="techImages">
+                  <img src="Images/Icons/CSS.svg" alt="css" /><span
+                    class="techName"
+                    >CSS</span>
+                </div>
+                
+          
+              </div>
+              <div class="tech js hidden">
+                <div class="techImages">
+                  <img
+                    src="Images/Icons/javaScript.svg"
+                    alt="javaScript"
+                  /><span class="techName">JavaScript</span>
+                </div>
+                
+              </div>
+              <div class="tech git hidden">
+                <div class="techImages">
+                  <img src="Images/Icons/androidstudio.svg" alt="git" /><span
+                    class="techName"
+                    >Android Studio</span
+                    >
+                </div>
+                
+              </div>
+              <div class="tech cPlusPlus hidden">
+                <div class="techImages">
+                  <img src="Images/Icons/python.svg" alt="c++" /><span
+                    class="techName"
+                    >Python</span
+                  >
+                </div>
+                
+              </div>
+              <div class="tech html hidden">
+                <div class="techImages">
+                  <img src="Images/Icons/html.svg" alt="html" /><span
+                    class="techName"
+                    >HTML</span
+                  >
+                </div>
+                
+              </div>
+              <div class="tech git hidden">
+                <div class="techImages">
+                  <img src="Images/Icons/gitt.svg" alt="git" /><span
+                    class="techName"
+                    >Git</span
+                  >
+                </div>
+               
+              </div>
+              <div class="tech git hidden">
+                <div class="techImages">
+                  <img src="Images/Icons/java.svg" alt="git" /><span
+                    class="techName"
+                    >Java</span
+                    >
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <!--header for the components-->
+        <div class="sectionTitle hidden">
+          <span class="mainTitle">My Projects</span>
+          <span class="backTitle">My projects</span>
+        </div>
+        <div class="container">
+          <!--Project-->
+          <div class="project portfolio hidden">
+            <img src="Images/Projects/portfolio.webp" alt="portfolio" />
+            <div class="detailsContainer">
+              <div class="projectDetails">
+                <span class="projectTitle">Portfolio</span>
+                <p>
+                  A personal portfolio showcasing front-end development
+                  projects, skills, and experience in building modern,
+                  responsive, and interactive websites
+                </p>
+              </div>
+              <div class="technologiesUsed">
+                <p class="projectsTechTitle">Technologies Used:</p>
+                <div class="technologies">
+                  <span>CSS</span><span>JavaScript</span><span>HTML</span>
+                </div>
+              </div>
+              <div class="projectButtons">
+                <a
+                  href="https://github.com/Venksaiabhishek/Venksaiabhishek.github.io"
+                  class="whiteButton"
+                  target="_blank"
+                  ><i class="fa-brands fa-github"></i
+                  ><span>Source Code</span></a
+                >
+                <a
+                
+                  href="https://Venksaiabhishek.github.io"   
+                  class="blackButton"
+                  target="_blank"
+                  ><i class="bx bx-globe"></i><span>Live Demo</span></a
+                >
+              </div>
+            </div>
+          </div>
+          <!--Project-->
+          <div class="project recipe hidden">
+            <img src="Images/Projects/bitcoin.webp" alt="Recipe" />
+            <div class="detailsContainer">
+              <div class="projectDetails">
+                <span class="projectTitle">Bitcoin Price Movement Based on News </span>
+                <p>
+                  This proejct is about predicting future Bitcoin prices based 
+                  on the sentiment of news articles related to Bitcoin. The 
+                  sentiment analysis will be performed using Natural Language 
+                  Processing (NLP) techniques.
+                </p>
+              </div>
+              <div class="technologiesUsed">
+                <p class="projectsTechTitle">Technologies Used:</p>
+                <div class="technologies">
+                  <span>python</span>
+                </div>
+                <div class="technologiesUsed">
+                  <p class="projectsTechTitle">Libraries Used:</p>
+                  <div class="technologies">
+                    <span>textblob</span><span>seaborn</span><span>scikit-learn </span><span>matplotlib</span>
+                  </div>
+                </div>
+              </div>
+              <div class="projectButtons">
+                <a
+                  href=""
+                  class="whiteButton"
+                  target="_blank"
+                  ><i class="fa-brands fa-github"></i
+                  ><span>Source Code</span></a
+                >
+                <a
+                  href=""
+                  class="blackButton"
+                  target="_blank"
+                  ><i class="bx bx-globe"></i><span>Live Demo</span></a
+                >
+              </div>
+            </div>
+          </div>
+          <!--Project-->
+        </div>
+        <div class="seeMore">
+          <a
+            class="seeMoreBtn"
+            href="https://github.com/Venksaiabhishek/BITCOIN-PRICE-MOVEMENT-BASED-ON-NEWS"
+            target="_blank"
+            ><span>See More</span><i class="bx bx-arrow-back"></i
+          ></a>
+        </div>
+      </section>
+      <section id="education">
+        <!-- Header for the Education Section -->
+        <div class="sectionTitle hidden">
+          <span class="mainTitle">My Education</span>
+          <span class="backTitle">MY Education</span>
+        </div>
+        <div class="container">
+         
+          <!-- sree Vidhyanikethan engineering college-->
+          <div class="experience education hidden">
+            <span class="mainTopic">Bachelor in Computer Science Engineering </span>
+            <span class="subTopic">VIT-AP University</span>
+            <p>Accredited by AICTE, NBA, and NAAC</p>
+            
+            <span class="time">Sep 2022- Jun 2026</span>
+          </div>
+        </div>
+      </section>
+      
+      <section id="experience">
+        <!-- Header for the components -->
+        <div class="sectionTitle hidden">
+            <span class="mainTitle">My Experience</span>
+            <span class="backTitle">My Experience</span>
+        </div>
+    
+        
+        <!-- University of North Texas - Academic Assistant -->
+        <div class="experience hidden">
+            <span class="mainTopic">Teaching Assistant for Machine Learning</span>
+            <span class="subTopic">VIT-AP University · Part-time</span>
+            <span class="subTopic">Andhra pradesh, India · On-site</span>
+            <p>
+                Supporting academic operations,while assisting students in various academic tasks.
+            </p>
+            <span class="time">Aug 2023 - Aug 2024 · 2 year</span>
+        </div>
+    
+        
+    </section>
+    
+    </main>
+    <footer><span>&copy;2025 | PVS ABHISHEK</span></footer>
+  </body>
