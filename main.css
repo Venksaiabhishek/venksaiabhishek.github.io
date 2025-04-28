@@ -1,10 +1,9 @@
 #main {
-  --main-max-width: 62.5rem;
-  --main-padding: 1.25rem;
-
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: min(var(--main-max-width), 100% - (var(--main-padding) * 2));
-  margin-inline: auto;
+  width: 100%;
+  margin-inline: 0;
+  padding: 0 20px; /* Optional: Add some left/right padding for better look */
+  box-sizing: border-box; /* Ensures padding doesn't break layout */
 }
