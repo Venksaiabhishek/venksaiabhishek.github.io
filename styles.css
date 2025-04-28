@@ -429,7 +429,31 @@ p {
   
   margin-left:0px;
 }
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-me-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
 #hi-animation {
   width: 200px; /* Adjust size as needed */
   height: 200px;
 }
+}
+#hi-animation {
+  width: '50%';
+}
+
+#hi-animation img {
+  width: 180px; /* Adjust size as needed */
+  height: 300px;
+  margin: 0 auto; /* Center the animation */
+}
+
+/* #hi-animation video, #hi-animation img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%; Optional: Make it circular
+  object-fit: cover;
+} */
