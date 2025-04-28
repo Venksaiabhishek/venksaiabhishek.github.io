@@ -429,3 +429,7 @@ p {
   
   margin-left:0px;
 }
+#hi-animation {
+  width: 200px; /* Adjust size as needed */
+  height: 200px;
+}
