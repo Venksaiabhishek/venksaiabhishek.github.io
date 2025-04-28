@@ -4,6 +4,6 @@
   align-items: center;
   width: 100%;
   margin-inline: 0;
-  padding: 0 20px; /* Optional: Add some left/right padding for better look */
-  box-sizing: border-box; /* Ensures padding doesn't break layout */
+  padding: 0 20px; 
+  box-sizing: border-box; 
 }
