@@ -1,3 +1,4 @@
+/* Global Variables */
 :root {
   --primary: #000000;
   --primary-tr: rgba(0, 0, 0, 0.3);
@@ -26,4 +27,282 @@
   );
   --available: #00ff00;
   --notAvailable: #ff0000;
+}
+
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  color: var(--secondary);
+  background: var(--primary);
+}
+
+/* Links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: var(--global-padding);
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 90px;
+}
+
+.hero-content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero-image {
+  flex-shrink: 0;
+}
+
+.hero-image img {
+  width: 180px;
+  height: 300px;
+}
+
+/* Profile Picture */
+.about .profilePicture {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  background: var(--instagramGradient);
+  margin: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.about .profilePicture:hover {
+  transform: scale(1.05); /* Subtle zoom effect on hover */
+}
+
+.about .profilePicture img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* About and Contact Boxes */
+.aboutAndContact {
+  width: 100%;
+  max-width: var(--max-width);
+  padding: 20px;
+  border-radius: 15px;
+  background: transparent;
+  box-shadow: 0 4px 8px var(--shadow);
+  text-align: center;
+}
+
+/* Contact Section */
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact .heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0.4px;
+}
+
+.contact a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  padding: 3px 5px;
+  width: 60%;
+  transition: 0.3s;
+}
+
+.contact a:hover {
+  transform: scale(1.02);
+}
+
+.contact a i {
+  margin-right: 4px;
+}
+
+/* Buttons */
+.buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  background-color: var(--gradient);
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.buttons a:hover {
+  background-color: var(--instagramGradient);
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px var(--shadow);
+}
+
+.buttons .notAvailable {
+  background-color: rgba(60, 60, 60, 0.7);
+}
+
+.buttons .notAvailable:hover {
+  background-color: rgba(30, 30, 30, 0.9);
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.buttons a[href="#contact"] {
+  background-color: rgba(60, 60, 60, 0.7);
+}
+
+.buttons a[href="#contact"]:hover {
+  background-color: rgba(30, 30, 30, 0.9);
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Experience and Education Boxes */
+.experience, .education {
+  width: 100%;
+  max-width: 40rem;
+  padding: 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 0.625rem;
+  background: var(--light-bg);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.experience:hover, .education:hover {
+  transform: translateY(-5px); /* Subtle hover effect */
+}
+
+/* Technologies and Project Buttons */
+.technologies span {
+  color: black;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.projectButtons a {
+  color: white;
+  border: 2px solid black;
+  background-color: black;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.projectButtons a:hover {
+  background-color: grey;
+  border-color: black;
+}
+
+.projectButtons a i {
+  color: white;
+}
+
+/* See More Button */
+.seeMoreBtn {
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: background-color 0.3s ease-in-out, color 0.3s;
+}
+
+.seeMoreBtn:hover {
+  background-color: grey;
+  color: white;
+  border-color: black;
+}
+
+.seeMoreBtn i {
+  color: white;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .buttons {
+    flex-direction: column;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  .about .profilePicture {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .hero-image img {
+    width: 150px;
+    height: auto;
+  }
 }
