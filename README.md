@@ -1,7 +1,7 @@
-Welcome to my personal portfolio! 🎨💻 This website showcases my skills, projects, and experience as a **Software Engineer**.
+Welcome to my personal portfolio! 🎨💻 This website showcases my skills, projects, and experience as a **Junior Machine Learning Engineer**.
 
 ## 🌐 Live Demo
-[🔗 View Portfolio](https://jagruthijags24.github.io/)
+[🔗 View Portfolio](https://venksaiabhishek.github.io/)
 
 
 ## ✨ Features
